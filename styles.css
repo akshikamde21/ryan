@@ -1,0 +1,180 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+    margin: 10px;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 50px;
+    padding: 10px;
+}
+  
+.typed{
+    width: 22ch;
+    animation: typing 3s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bf-img {
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age{
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/rohee1.gif");
+}
+
+#gift-img-dhanush:hover {
+    background-image: url("images/dhanush.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/genius.gif");
+}
+
+#gift-img-dessert:hover {
+    background-image: url("images/ice-cream.gif");
+}
+
+#gift-img-srk:hover {
+    background-image: url("images/srk.gif");
+}
+
+#gift-img-baigan:hover {
+    background-image: url("images/baigan-aayein-meme.gif");
+}
+
+#gift-img-cat:hover {
+    background-image: url("images/cat-meme.gif");
+}
+
+#gift-img-meme:hover {
+    background-image: url("images/ha-dil-vich-tere-liye-tiktok-trend.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/cheers.gif");
+}
+
+.gift-site-btn, .reasons-site-btn, .memory-site-btn{
+    padding: 15px 10px;
+    border: 2px solid #EFB0C9;
+    font-size: large;
+    border-radius: 10px;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    &:hover {
+        box-shadow: 0 0 40px 40px #EFB0C9 inset;
+        color: #ffffff;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: #161616;
+}
+
+
+#reasons-container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #161616;
+  text-align: start;
+  font-size: large;
+}
+
+#reasons-list {
+  list-style: none;
+  padding: 0;
+}
+
+.reason {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+  }
+
